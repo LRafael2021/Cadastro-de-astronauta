@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <h3>Cadastro da liga dos astronautas</h3>
+    <form action="">
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <br> 
+            <label for="password">Senha:</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday" id="birthday">
+
+
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+            <option value="russian">Russia</option>
+            <option value="American">Americana</option>
+            <option value="brasilian">Brasileira</option>
+            </select>
+
+            Genero:
+            <label for="female">F</label>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <div>
+                <label for="imagem">Imagem</label><br>
+                <input type="file" name="birthday" id="birthday">
+            </div>
+            <br>
+            <div>
+                Suas Principais Qualidades:<br>
+                <label for="Int">Inteligencia</label>
+                <input type="checkbox" name="int" id="int"> /
+                <label for="res">Resiliência</label>
+                <input type="checkbox" name="int" id="int"> /
+                <label for="physic">Preparo Físico</label>
+                <input type="checkbox" name="int" id="int"> /
+                <label for="edu">Educação</label>
+                <input type="checkbox" name="int" id="int">
+            </div>
+            <br>
+            <div>
+            <textarea name="Descripition" id="Descripition" cols="30" rows="10" placeholder="Fale um pouco sobre você"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+    </form>
+</body>
+</html>
